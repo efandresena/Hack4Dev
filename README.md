@@ -2,16 +2,7 @@
 This repository host the pipeline created during the Hackathon in Astronomy to built a lihtweight image classifier for cubesats a little satelitte for downstream
 
 # Description 
-Our approach were ranked as the best 20 participants in the Hackathon in Astronomy. 
-**B.8 Team08(3/3)**
-Our team’s goal was to design a lightweight yet accurate image classification solution suited for resource-constrained
-environments like CubeSats. We explored several approaches to balance accuracy, model size, and inference speed.
-We evaluated different CNN architectures and machine learning pipelines. MobileNetV3-like CNN provided
-strong accuracy by using Squeeze-and-Excitation and inverted residual blocks. SqueezeNet offered a very compact
-architecture with accuracy close to AlexNet but with 50× fewer parameters, matching our aim for deployment on
-limited hardware. Classical pipelines combining CNN features or handcrafted features, such as HOG with SVM,
-performed reasonably well but required more complex preprocessing and had slower inference.
-We carried out extensive background research, consulted tutorials and papers, and iteratively built and tested
+Our approach was ranked as one of the best 20 participants in the Hackathon in Astronomy. 
 prototypes. Models were compared by accuracy, size, and computational load. After several experiments, MobileNet-
 like models emerged as the best trade-off between accuracy and efficiency.
 Preprocessing included resizing images to fit model input, normalization to stabilize learning, and using the
